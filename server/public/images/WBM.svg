@@ -1,0 +1,7 @@
+<svg viewBox="0 0 57.1 39.6" id="logo" xmlns="http://www.w3.org/2000/svg" style="fill:#6EC800;fill-opacity:1">
+  <defs>
+    <path id="W" d="M12 39.5L20.8 26v13.5h12.1L53.8 7.3h3.3L52.4.1 36.9 7.3h4.8L30.9 23.9V10.5H18.8l-8.7 13.4V10.5H0v29z"></path>
+  </defs>
+
+  <use href="#W" />
+</svg>

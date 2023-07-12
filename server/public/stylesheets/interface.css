@@ -29,10 +29,14 @@ h2 {
     justify-content: space-between;
 }
 
-#links {
+.element {
+    float: left;
+    width: 25%;
+}
+
+.links {
     text-align: center;
     position: relative;
-    margin-right: 70%;
     margin-top: 10%;
 }
 

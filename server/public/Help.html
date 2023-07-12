@@ -5,8 +5,13 @@
     <link rel="stylesheet" href="/stylesheets/interface.css">
     <link rel="stylesheet" href="/stylesheets/functional.css">
     <link rel="icon" href="/images/favicon-16x16.png">
+    <script>
+        function setHref() {
+        document.getElementById('modify-me').href = window.location.protocol + "//" + window.location.hostname;
+        }
+    </script>
 </head>
-<body style="height: 100%">
+<body style="height: 100%" onload="setHref()">
     <div>
         <header class="logo-header">
             <div class="header-logo-navigation">
@@ -34,13 +39,31 @@
             <img class="link-menu-icon" src="/images/Questionmark-circle-icon.svg" alt="test" width="90" height="33.3">
         </header>
     </div>
-    <div id ="links">
-        <div>
-            <p>Dockerfile</p>
-            <a href="https://hub.docker.com/r/bzporta/vscpy3" target="_blank">
-                <img src="/images/docker_logo.png">
-            </div>    
-        </a>
+    <div class ="links">
+        <div class="element">
+            <h3>Dockerhub</h3>
+            <a href="https://hub.docker.com/r/wagoeducation/cc100vscode" target="_blank">
+                <img src="/images/docker_logo.png" width="80%">
+            </a>
+        </div>
+        <div class="element">
+            <h3>CC100 Homepage</h3>
+            <a href="https://www.wago.com/de/automatisierungstechnik/sps-entdecken/compactcontroller100" target="_blank">
+                <img src="/images/cc100_neu11.png" width="80%">
+            </a>
+        </div>
+        <div class="element">
+            <h3>CC100 Manual</h3>
+            <a href="https://www.wago.com/de/d/6835960" target="_blank">
+                <img src="/images/Manual.png" width="80%">
+            </a>
+        </div>
+        <div class="element">
+            <h3>Web Based Management</h3>
+            <a href="/" id="modify-me" target="_blank">
+                <img src="/images/WBM.svg" width="80%">
+            </a>
+        </div>
     </div>
      
      
